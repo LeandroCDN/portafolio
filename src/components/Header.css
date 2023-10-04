@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  height: 90px;
+  max-width: 1600px;
+  padding: 5px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(78, 78, 78); 
+  background-color: rgb(255, 255, 255);
+}
