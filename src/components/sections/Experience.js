@@ -8,7 +8,7 @@ const Experience = () => {
         <h2 className='text-4xl flex justify-center mb-10'> Experience</h2>
         <div className="flex flex-row justify-between">
             <div class=" flex-col max-w-[30%] experience shadow-lg rounded-xl">
-                <Image className="px-6 py-4" src="/imgs/profile.jpg" alt="me" width="400" height="400" />
+                <Image className="px-6 py-4" src="Profile.jpg" alt="me" width="400" height="400" />
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Comadran Studios</div>
                     <p class="text-gray-700 text-sm text-base">
@@ -22,7 +22,7 @@ const Experience = () => {
                 </div>
             </div>
             <div class=" flex-col max-w-[30%] experience shadow-lg rounded-xl">
-                <Image className="px-6 py-4" src="/imgs/profile.jpg" alt="me" width="400" height="400" />
+                <Image className="px-6 py-4" src="Profile.jpg" alt="me" width="400" height="400" />
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Aurinext</div>
                     <p class="text-gray-700 text-sm text-base">
@@ -36,7 +36,7 @@ const Experience = () => {
                 </div>
             </div>
             <div class=" flex-col max-w-[30%] experience shadow-lg rounded-xl">
-                <Image className="px-6 py-4" src="/imgs/profile.jpg" alt="me" width="400" height="400" />
+                <Image className="px-6 py-4" src="Profile.jpg" alt="me" width="400" height="400" />
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Free lancer</div>
                     <p class="text-gray-700 text-sm text-base">
