@@ -16,7 +16,7 @@ const About = () => {
             </span>
         </div>
         <div className="w-full xl:w-2/5 flex flex-col items-center justify-center overflow-hidden">
-          <Image className="rounded-full" src="/Profile.jpg" alt="me" width="400" height="400" />
+          <Image className="rounded-full" src="/Profile.jpg" alt="me" width="360" height="360" />
         </div>
       </section>
   );
