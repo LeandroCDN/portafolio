@@ -9,7 +9,7 @@ const About = () => {
                 <h1 className="flex justify-center text-2xl text-gray-100" >solidity developer</h1>
             </div>
             <span> 
-                Hello, I'm a blockchain developer and content creator from Argentina.
+                Hello, I&apos;m a blockchain developer and content creator from Argentina.
                 I work as a freelancer, specializing in building smart contracts, conducting private audits, 
                 and assisting with the swift integration of blockchain technologies into your project. 
                 Let's collaborate!

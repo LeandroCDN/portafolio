@@ -5,7 +5,7 @@ const Experience = () => {
   
   return (
     <section className=''>
-        <h2 className='text-6xl flex justify-center mb-10'> Experience</h2>
+        <h2 className='text-4xl flex justify-center mb-10'> Experience</h2>
         <div className="flex flex-row justify-between">
             <div class=" flex-col max-w-[30%] experience shadow-lg rounded-xl">
                 <Image className="px-6 py-4" src="/profile.jpg" alt="me" width="400" height="400" />
