@@ -12,7 +12,7 @@ const About = () => {
                 Hello, I&apos;m a blockchain developer and content creator from Argentina.
                 I work as a freelancer, specializing in building smart contracts, conducting private audits, 
                 and assisting with the swift integration of blockchain technologies into your project. 
-                Let's collaborate!
+                Let&apos;s collaborate!
             </span>
         </div>
         <div className="w-full xl:w-2/5 flex flex-col items-center justify-center overflow-hidden">
