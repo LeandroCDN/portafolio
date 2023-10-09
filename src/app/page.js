@@ -10,7 +10,7 @@ export default function Home() {
       <About className=""/>
       <Experience/>
       <Stack/>
-      <Contributions/>
+      {/* <Contributions/> */}
       <Playground/>
     </main>
   )
