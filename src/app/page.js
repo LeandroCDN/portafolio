@@ -11,7 +11,7 @@ export default function Home() {
       <Experience/>
       <Stack/>
       {/* <Contributions/> */}
-      <Playground/>
+      {/* <Playground/> */}
     </main>
   )
 }

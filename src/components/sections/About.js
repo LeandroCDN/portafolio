@@ -27,15 +27,15 @@ const About = () => {
             <div className='flex flex-row justify-evenly mb-5'> 
           
           
-            <a href="#" class="flex flex-row block pr-1 xl:pr-2 items-center border border-white-200 rounded-lg shadow  bg-white bg-opacity-25">
+            <a href="#" class="flex flex-row block pr-1 xl:pr-2 items-center border border-white-200 rounded-lg shadow  bg-white bg-opacity-20">
               <Image  src="/Github.svg" alt="me" width="48" height="48" />
               <h5 class=" text-xl font-semibold tracking-tight">Github</h5>
             </a>
-            <a href="#" class="flex flex-row block pr-1 xl:pr-2 items-center bg-white border border-white-200 rounded-lg shadow  bg-opacity-20">
+            <a href="#" class="flex flex-row block pr-1 xl:pr-2 items-center border border-white-200 rounded-lg shadow  bg-white bg-opacity-20">
               <Image  src="/Notion.svg" alt="me" width="48" height="48" />
               <h5 class=" text-xl font-semibold tracking-tight">Notion</h5>
             </a>
-            <a href="#" class="flex flex-row block pr-1 xl:pr-2 items-center bg-white border border-white-200 rounded-lg shadow  bg-opacity-20">
+            <a href="#" class="flex flex-row block pr-1 xl:pr-2 items-center border border-white-200 rounded-lg shadow  bg-white bg-opacity-20">
               <Image  src="/youtube.svg" alt="me" width="48" height="48" />
               <h5 class=" text-xl font-semibold tracking-tight">Youtube</h5>
             </a>

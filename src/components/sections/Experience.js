@@ -14,7 +14,7 @@ const Experience = () => {
         <div className={audiowide.className}>
             <h2 className='text-4xl flex justify-center mb-10'>Experience</h2>
         </div>
-        <div className='flex flex-col xl:flex-row items-center md:justify-between gap-0 xl:gap-16 w-full mb-20 xl:items-stretch'>
+        <div className='flex flex-col xl:flex-row items-center justify-between w-full mb-20 xl:items-stretch'>
             
             <div className="flex-col xl:max-w-[30%] max-w-[90%] shadow-lg rounded-xl border border-radius mb-5 xl:mb-0">
                 
