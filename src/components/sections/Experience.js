@@ -32,14 +32,14 @@ const Experience = () => {
                     </p>
                     </div>
                     <div class="px-6 mt-4">
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Solidity</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Foundry</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Solidity</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">JavaScript</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Foundry</span>
                     </div>
             </div>
             <div className="flex-col xl:max-w-[30%] max-w-[90%] shadow-lg rounded-xl border border-radius mb-5 xl:mb-0">
                 
-                <img src="Comadran.webp" alt="image3" className="w-full h-48 imgcard object-cover mb-2" />
+                <img src="/Comadran.webp" alt="image3" className="w-full h-48 imgcard object-cover mb-2" />
                 <div class="px-5 py-3">
                     <div className="flex flex-row justify-between w-full">
                         <div class={` text-xl mb-2 ${audiowide.className}`}>Comadran Studios</div>
@@ -53,9 +53,9 @@ const Experience = () => {
                     </p>
                     </div>
                     <div class="px-6 xl:mt-9">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Solidity</span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Foundry</span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ether.js</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Solidity</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Foundry</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Ether.js</span>
                 </div>
             </div>
             <div className="flex-col xl:max-w-[30%] max-w-[90%] shadow-lg rounded-xl border border-radius mb-5 xl:mb-0">
@@ -73,10 +73,10 @@ const Experience = () => {
                     Additionally, I was tasked with designing and developing the front-end interface for the pre-sale using JavaScript and Web3.js."
                     </p>
                 </div>
-                <div class="px-6 xl:mt-8 text-xl pb-2">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Solidity</span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Web3.js</span>
+                <div class="px-6 xl:mt-8 text-xl pb-2 ">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Solidity</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">JavaScript</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Web3.js</span>
                 </div>
             </div>
         </div>
