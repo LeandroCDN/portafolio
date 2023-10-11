@@ -28,7 +28,7 @@ const Experience = () => {
                         As a freelancer, I managed small development teams and served clients independently.
                     </p>
                     <p class="text-gray-700 text-sm text-base">
-                    My freelance journey has seen me tackle a wide range of projects, spanning lending, gambling, NFTs, tokens, and providing expert guidance in blockchain development, including crafting tokenomics and creating successful launch strategies.
+                        My freelance journey has seen me tackle a wide range of projects, spanning lending, gambling, NFTs, tokens, and providing expert guidance in blockchain development, including crafting tokenomics and creating successful launch strategies.
                     </p>
                     </div>
                     <div class="px-6 mt-4">
@@ -70,7 +70,7 @@ const Experience = () => {
                         At Aurinext, I played a pivotal role in the development of Educaverse. My responsibilities included creating a custom token and implementing a pre-sale contract.
                     </p>
                     <p class="text-gray-700 text-sm text-base">
-                    Additionally, I was tasked with designing and developing the front-end interface for the pre-sale using JavaScript and Web3.js."
+                        Additionally, I was tasked with designing and developing the front-end interface for the pre-sale using JavaScript and Web3.js.
                     </p>
                 </div>
                 <div class="px-6 xl:mt-8 text-xl pb-2 ">
