@@ -21,8 +21,8 @@ const About = () => {
             <span className="mx-2 xl:mx-0"> 
                 Hello, I&apos;m a blockchain developer and content creator from Argentina.
                 I work as a freelancer, specializing in building smart contracts, conducting private audits, 
-                and assisting with the swift integration of blockchain technologies into your project. 
-                Let&apos;s collaborate!
+                and seamlessly integrating blockchain solutions into existing products. 
+                Let&apos;s work collaborate!
             </span>
             <div className='flex flex-row justify-evenly mb-5'> 
           
