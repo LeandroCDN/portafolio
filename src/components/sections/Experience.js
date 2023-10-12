@@ -32,9 +32,9 @@ const Experience = () => {
                     </p>
                     </div>
                     <div class="px-6 mt-4">
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Solidity</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">JavaScript</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Foundry</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Solidity</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">JavaScript</span>
+                        <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Foundry</span>
                     </div>
             </div>
             <div className="flex-col xl:max-w-[30%] max-w-[90%] shadow-lg rounded-xl border border-radius mb-5 xl:mb-0">
@@ -74,9 +74,9 @@ const Experience = () => {
                     </p>
                 </div>
                 <div class="px-6 xl:mt-8 text-xl pb-2 ">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Solidity</span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">JavaScript</span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Web3.js</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Solidity</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">JavaScript</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-sm font-bold text-gray-700 mr-2 mb-2 border border-white-200 bg-white bg-opacity-50">Web3.js</span>
                 </div>
             </div>
         </div>
