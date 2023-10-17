@@ -1,8 +1,7 @@
 import About from "../components/sections/About"
 import Experience from "../components/sections/Experience"
 import Stack from "../components/sections/Stack"
-import Contributions from "../components/sections/Contributions"
-import Playground from "@/components/sections/Playground"
+import SideProjects from "../components/sections/SideProjects"
 
 export default function Home() {
   return (
@@ -10,8 +9,7 @@ export default function Home() {
       <About className=""/>
       <Experience/>
       <Stack/>
-      {/* <Contributions/> */}
-      {/* <Playground/> */}
+      <SideProjects/>
     </main>
   )
 }

@@ -8,10 +8,10 @@ const Header = () => {
         <h2 className=" font-semibold ml-4 text-2xl">Lean Labiano</h2>
         
         <div className=" flex justify-end  mr-4 space-x-4 xl:flex-row ">
-            <a href="https://x.com/leanlabiano" class="flex items-center rounded-lg bg-white bg-opacity-5">
+            <a href="https://x.com/leanlabiano" target="_blank" class="flex items-center rounded-lg bg-white bg-opacity-5">
               <Image  src="/TwitterX.svg" alt="me" width="48" height="48" />
             </a>
-            <a href="https://www.linkedin.com/in/leanlabiano/" class="flex items-center rounded-lg bg-white bg-opacity-5">
+            <a href="https://www.linkedin.com/in/leanlabiano/" target="_blank"  class="flex items-center rounded-lg bg-white bg-opacity-5">
               <Image  src="/Linkedin.svg" alt="me" width="48" height="48" />
             </a>
           {/* <a className="text-xl">About </a>

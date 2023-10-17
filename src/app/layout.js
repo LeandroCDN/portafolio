@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ['latin'] })
 const quicksand = Quicksand({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Create Next App',
-  description: 'LeanLabiano Portafolio',
+  title: 'LeanLabiano',
+  description: 'LeandroLabiano Solidity developer',
 }
 
 export default function RootLayout({ children }) {
