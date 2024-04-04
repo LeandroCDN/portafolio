@@ -25,15 +25,15 @@ const About = () => {
                 Let&apos;s work collaborate!
             </span>
             <div className='flex flex-row gap-2 justify-evenly mb-5'> 
-              <a href="#" class="flex flex-row block pr-1 xl:pr-2 items-center border border-white-200 rounded-lg shadow  bg-white bg-opacity-20">
+              <a href="https://github.com/LeandroCDN" target="_blank" class="flex flex-row block pr-1 xl:pr-2 items-center border border-white-200 rounded-lg shadow  bg-white bg-opacity-20">
                 <Image  src="/Github.svg" alt="me" width="48" height="48" />
                 <h5 class="text-lg xl:text-xl font-semibold tracking-tight">Github</h5>
               </a>
-              <a href="#" class="flex flex-row block pr-1 xl:pr-2 items-center border border-white-200 rounded-lg shadow  bg-white bg-opacity-20">
+              <a href="https://leanlabiano.super.site/" target="_blank" class="flex flex-row block pr-1 xl:pr-2 items-center border border-white-200 rounded-lg shadow  bg-white bg-opacity-20">
                 <Image  src="/Notion.svg" alt="me" width="48" height="48" />
                 <h5 class="text-lg xl:text-xl font-semibold tracking-tight">Notion</h5>
               </a>
-              <a href="#" class="flex flex-row block pr-1 xl:pr-2 items-center border border-white-200 rounded-lg shadow  bg-white bg-opacity-20">
+              <a href="https://www.youtube.com/@leanlabiano" target="_blank"  class="flex flex-row block pr-1 xl:pr-2 items-center border border-white-200 rounded-lg shadow  bg-white bg-opacity-20">
                 <Image  src="/youtube.svg" alt="me" width="48" height="48" />
                 <h5 class="text-lg xl:text-xl font-semibold tracking-tight">Youtube</h5>
               </a>
