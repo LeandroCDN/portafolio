@@ -51,20 +51,24 @@ const SideProjects = () => {
               nulla lobortis cursus. Aenean molestie non velit sed iaculis.
               Donec mollis lectus et massa pellentesque cursus.            </p>
           </div>
+          <div className='xl:flex xl:flex-row'>
           <div className="xl:h-full xl:w-px  bg-white w-full h-px "></div>
           <a
             href="https://nightz.co/"
             target="_blank"
-            class="flex justify-center "
+            class="flex justify-center xl:h-full  "
           >
             <Image
               src="/og.webp"
               alt="Nightz protocol"
               width="400"
               height="400"
-              className="sidecard p-2"
-            />
+              className="xl:sidecard"
+            />  
           </a>
+
+          </div>
+          
         </div>
       </div>
     </section>
