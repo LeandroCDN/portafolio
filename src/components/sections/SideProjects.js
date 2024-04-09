@@ -21,7 +21,7 @@ const SideProjects = () => {
               >
                 Nightz
               </div>
-              <p> 1/1/2000 </p>
+              <p> From 20/8/2023 to 1/2/2024 </p>
             </div>
             <p class="text-gray-700 text-base font-normal mb-2">
               Status: On Going
@@ -31,44 +31,39 @@ const SideProjects = () => {
             </p>
 
             <p class="text-gray-700 text-base mb-4">
-              My freelance journey has seen me tackle a wide range of projects,
-              spanning lending, gambling, NFTs, tokens, and providing expert
-              guidance in blockchain development, including crafting tokenomics
-              and creating successful launch strategies.
+              At Nightz, I led the team creation and directed the web
+              development, while personally overseeing the implementation of
+              smart contracts. I successfully coordinated the launch and managed
+              the product migration across various networks to our main network.
             </p>
 
             <div
               class={` mb-2 text-xl font-bold tracking-tight ${audiowide.className}`}
             >
-              About Nightz
+              About Nightz - {" "}
+              <a href="https://nightz.co/"
+              target="_blank">Link</a>
             </div>
             <p class="text-gray-700 text-base mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              interdum urna at purus tincidunt eleifend. Fusce rhoncus enim
-              vitae dolor egestas euismod. Maecenas aliquam scelerisque nunc,
-              vitae euismod metus auctor sit amet. Duis vel lacus volutpat,
-              vestibulum felis in, lacinia velit. Quisque suscipit lectus vitae
-              nulla lobortis cursus. Aenean molestie non velit sed iaculis.
-              Donec mollis lectus et massa pellentesque cursus.            </p>
+              Nightz is a protocol enabling the acquisition of memberships, each
+              tied to a plan offering access to stays in different properties.
+              Each Nightz NFT represents one night's stay.{" "}
+            </p>
           </div>
-          <div className='xl:flex xl:flex-row'>
-          <div className="xl:h-full xl:w-px  bg-white w-full h-px "></div>
-          <a
-            href="https://nightz.co/"
-            target="_blank"
-            class="flex justify-center xl:h-full  "
-          >
-            <Image
-              src="/og.webp"
-              alt="Nightz protocol"
-              width="400"
-              height="400"
-              className="xl:sidecard"
-            />  
-          </a>
-
+          <div className="xl:flex xl:flex-row">
+            <div className="xl:h-full xl:w-px  bg-white w-full h-px "></div>
+            <a
+              href="https://nightz.co/"
+              target="_blank"
+              class="flex justify-center xl:h-full  "
+            >
+              <img
+                src="/nightzimg.jpeg"
+                alt="Nightz protocol"
+                className=" object-cover overflow-hidden object-left	sidecard"
+              />
+            </a>
           </div>
-          
         </div>
       </div>
     </section>
