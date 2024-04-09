@@ -47,7 +47,7 @@ const SideProjects = () => {
             <p class="text-gray-700 text-base mb-4">
               Nightz is a protocol enabling the acquisition of memberships, each
               tied to a plan offering access to stays in different properties.
-              Each Nightz NFT represents one night's stay.{" "}
+              Each Nightz NFT represents one night&apos;s stay.{" "}
             </p>
           </div>
           <div className="xl:flex xl:flex-row">
