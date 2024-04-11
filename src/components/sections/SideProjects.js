@@ -1,25 +1,27 @@
-import { Audiowide  } from 'next/font/google'
+import { Audiowide } from "next/font/google";
 import "./Sections.css";
-import Image from 'next/image';
+import Image from "next/image";
 const audiowide = Audiowide({
-  weight: '400',
-  subsets: ['latin']  
-})
+  weight: "400",
+  subsets: ["latin"],
+});
 
 const SideProjects = () => {
   return (
     <section>
       <div className={audiowide.className}>
-        <h2 className="text-4xl flex justify-center mb-10">Side-Projects</h2>
+        <h3 className="text-4xl flex justify-center mb-10">Side-Projects</h3>
       </div>
       <div className="flex flex-col xl:flex-row items-center justify-between w-full mb-20 xl:items-stretch">
         <div className="flex xl:flex-row flex-col xl:justify-between justify-center shadow-lg rounded-xl border border-radius mb-5 xl:mb-0">
-          <div class="xl:max-w-[50%] px-5 py-3">
+          <div class="xl:max-w-[50%] px-8 py-3">
             <div className="flex flex-row justify-between w-full">
               <div
                 class={` mb-2 text-2xl font-bold tracking-tight ${audiowide.className}`}
               >
-                Nightz
+                <a href="https://nightz.co/" target="_blank">
+                  Nightz
+                </a>
               </div>
               <p> From 20/8/2023 to 1/2/2024 </p>
             </div>
@@ -40,9 +42,10 @@ const SideProjects = () => {
             <div
               class={` mb-2 text-xl font-bold tracking-tight ${audiowide.className}`}
             >
-              About Nightz - {" "}
-              <a href="https://nightz.co/"
-              target="_blank">Link</a>
+              About Nightz -{" "}
+              <a href="https://nightz.co/" target="_blank">
+                Link
+              </a>
             </div>
             <p class="text-gray-700 text-base mb-4">
               Nightz is a protocol enabling the acquisition of memberships, each
@@ -60,7 +63,7 @@ const SideProjects = () => {
               <img
                 src="/nightzimg.jpeg"
                 alt="Nightz protocol"
-                className=" object-cover overflow-hidden object-left	sidecard"
+                className=" object-cover overflow-hidden object-center	sidecard"
               />
             </a>
           </div>
