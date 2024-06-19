@@ -8,8 +8,9 @@ const Header = () => {
         <h2 className=" font-semibold ml-4 text-2xl">Lean Labiano</h2>
         
         <div className=" flex justify-end  mr-4 space-x-4 xl:flex-row ">
-            <a href="/files/LEANDRO-LABIANO.pdf" download className="flex items-center rounded-lg bg-blue-500 text-white px-4 py-2">
-              Descargar CV
+            
+            <a href="/files/LEANDRO-LABIANO.pdf" target="_blank" className="flex items-center rounded-lg bg-blue-500 text-white px-4 py-2">
+             View CV
             </a>
             <a href="https://x.com/leanlabiano" target="_blank" class="flex items-center rounded-lg bg-white bg-opacity-5">
               <Image  src="/TwitterX.svg" alt="me" width="48" height="48" />
