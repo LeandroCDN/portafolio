@@ -22,7 +22,7 @@ const Stack = () => {
               Solidity
             </h5>
             <p class="font-normal">
-              Two years of professional experience in smart contract
+              Three years of professional experience in smart contract
               development, leadership roles and providing expertise in smart
               contract solutions.
             </p>
