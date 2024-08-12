@@ -14,9 +14,11 @@ const Experience = () => {
       </div>
       <div className="flex flex-col xl:flex-row items-center justify-between w-full mb-20 ">
         <div className=" xl:max-w-[30%] max-w-[90%] shadow-lg rounded-xl border border-radius mb-5 xl:mb-0">
-          <img
-            src="https://i.postimg.cc/SxLx0fHV/bg01.jpg"
+          <Image
+            src="/bg01.jpg"
             alt="image3"
+            width={400}
+            height={400}
             className="w-full h-48 imgcard object-cover mb-2"
           />
           <div class="px-5 py-3">
@@ -49,9 +51,11 @@ const Experience = () => {
           </div>
         </div>
         <div className="xl:max-w-[30%] max-w-[90%] shadow-lg rounded-xl border border-radius mb-5 xl:mb-0">
-          <img
+          <Image
             src="/Comadran.webp"
             alt="image3"
+            width={400}
+            height={400}
             className="w-full h-48 imgcard object-cover mb-2"
           />
 
@@ -86,9 +90,11 @@ const Experience = () => {
         </div>
         <div className="xl:max-w-[30%] max-w-[90%] shadow-lg rounded-xl border border-radius mb-5 xl:mb-0">
           <a href="https://aurinext.com/" target="_blank">
-            <img
-              src="https://i.postimg.cc/J4khxLqf/bg02.jpg"
+            <Image
+              src="/Aurinext.jpg"
               alt="image2"
+              width={400}
+              height={400}
               className="w-full h-48 object-cover imgcard overflow-hidden mb-2"
             />
           </a>
