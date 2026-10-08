@@ -1,15 +1,16 @@
 import { profile } from '@/data/site'
 
 const links = [
-  { href: '#work', label: 'work' },
-  { href: '#experience', label: 'experience' },
-  { href: '#stack', label: 'stack' },
+  { href: '/#now', label: 'now' },
+  { href: '/#work', label: 'work' },
+  { href: '/#experience', label: 'experience' },
+  { href: '/#stack', label: 'stack' },
 ]
 
 export default function Header() {
   return (
     <header className="sticky top-0 z-20 -mx-4 flex flex-wrap items-center justify-between gap-4 border-b border-line bg-ink/80 px-4 py-5 backdrop-blur-md sm:-mx-6 sm:px-6">
-      <a href="#top" className="font-mono text-[15px]">
+      <a href="/#top" className="font-mono text-[15px]">
         {profile.handle}
         <span className="text-accent">_</span>
       </a>
@@ -19,7 +20,7 @@ export default function Header() {
             {l.label}
           </a>
         ))}
-        <a href="#contact" className="rounded bg-accent px-4 py-2 font-medium text-ink transition-transform hover:-translate-y-0.5">
+        <a href="/#contact" className="rounded bg-accent px-4 py-2 font-medium text-ink transition-transform hover:-translate-y-0.5">
           hire me
         </a>
       </nav>
