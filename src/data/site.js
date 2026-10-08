@@ -18,7 +18,7 @@ export const profile = {
 
 // Static stats. The BirdGames volume is read on-chain (src/lib/volume.js).
 export const stats = [
-  { value: "5+", label: "years writing Solidity (since 2021)" },
+  { value: "5+", label: "years writing Solidity" },
   { value: "100k+", label: "BirdGames users" },
 ];
 

@@ -64,8 +64,8 @@ export default function Hero({ volume }) {
         <Reveal delay={0.2}>
           <dl className={`mt-10 md:mt-14 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line ${lgCols[Math.min(items.length, 4)]}`}>
             {items.map((s, i) => (
-              <div key={s.label} className={`flex flex-col-reverse gap-1.5 bg-ink px-5 py-5 ${items.length % 2 && i === items.length - 1 ? 'col-span-2 lg:col-span-1' : ''}`}>
-                <dt className="font-mono text-xs text-dim">{s.label}</dt>
+              <div key={s.label} className={`flex flex-col gap-1.5 bg-ink px-5 py-5 ${items.length % 2 && i === items.length - 1 ? 'col-span-2 lg:col-span-1' : ''}`}>
+                <dt className="order-last font-mono text-xs text-dim">{s.label}</dt>
                 <dd className="font-display text-3xl font-medium md:text-4xl">{s.node}</dd>
               </div>
             ))}
