@@ -2,22 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: linear-gradient(90deg, #A6ECE8, #F09CE1);
+  @apply bg-ink text-fg font-sans antialiased;
+}
 
-  /* background-color: linear-gradient(A6E4EC  to  E196F4); */
+::selection {
+  @apply bg-accent text-ink;
 }
