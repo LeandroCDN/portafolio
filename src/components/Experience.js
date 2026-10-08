@@ -3,7 +3,7 @@ import { Reveal } from './motion'
 
 export default function Experience() {
   return (
-    <section id="experience" className="flex scroll-mt-20 flex-col gap-10 border-t border-line py-20">
+    <section id="experience" className="flex scroll-mt-20 flex-col gap-8 border-t border-line py-14 md:gap-10 md:py-20">
       <Reveal><h2 className="font-display text-4xl font-medium tracking-tight md:text-5xl">Experience</h2></Reveal>
       <Reveal as="ol" className="border-b border-line">
         {experience.map((e) => (

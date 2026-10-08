@@ -7,7 +7,7 @@ export default function Now() {
   if (!experiments?.length) return null
 
   return (
-    <section id="now" className="flex scroll-mt-20 flex-col gap-10 py-20">
+    <section id="now" className="flex scroll-mt-20 flex-col gap-8 py-14 md:gap-10 md:py-20">
       <Reveal className="flex flex-wrap items-baseline justify-between gap-3">
         <h2 className="font-display text-4xl font-medium tracking-tight md:text-5xl">Now building</h2>
         <span className="font-mono text-sm text-dim">{'// in progress'}</span>
