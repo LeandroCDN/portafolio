@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import Marquee from '@/components/Marquee'
 import Work from '@/components/Work'
 import Experience from '@/components/Experience'
 import Stack from '@/components/Stack'
@@ -17,6 +18,7 @@ export default async function Home() {
       <Header />
       <main>
         <Hero volume={volume} />
+        <Marquee />
         <Work volume={volume} />
         <Experience />
         <Stack />

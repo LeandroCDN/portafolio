@@ -10,8 +10,6 @@ const TOKENS = [
   { symbol: "USDC", address: "0x79A02482A880bCE3F13e09Da970dC34db4CD24d1", decimals: 6 },
 ];
 
-const compact = new Intl.NumberFormat("en-US", { notation: "compact", maximumFractionDigits: 1 });
-
 export async function getBirdGamesVolume() {
   try {
     const provider = new ethers.JsonRpcProvider(RPC, CHAIN_ID, { staticNetwork: true });
@@ -27,8 +25,8 @@ export async function getBirdGamesVolume() {
     ]);
     return TOKENS.map((t, i) => ({
       symbol: t.symbol,
-      value: compact.format(Number(ethers.formatUnits(amounts[i], t.decimals))),
-    })).filter((v) => v.value !== "0");
+      amount: Math.round(Number(ethers.formatUnits(amounts[i], t.decimals))),
+    })).filter((v) => v.amount > 0);
   } catch (err) {
     console.error("BirdGames volume:", err.message);
     return null; // page hides the stat

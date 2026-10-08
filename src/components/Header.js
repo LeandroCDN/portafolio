@@ -8,7 +8,7 @@ const links = [
 
 export default function Header() {
   return (
-    <header className="flex flex-wrap items-center justify-between gap-4 border-b border-line py-7">
+    <header className="sticky top-0 z-20 -mx-4 flex flex-wrap items-center justify-between gap-4 border-b border-line bg-ink/80 px-4 py-5 backdrop-blur-md sm:-mx-6 sm:px-6">
       <a href="#top" className="font-mono text-[15px]">
         {profile.handle}
         <span className="text-accent">_</span>
@@ -19,7 +19,7 @@ export default function Header() {
             {l.label}
           </a>
         ))}
-        <a href="#contact" className="rounded bg-accent px-4 py-2.5 font-medium text-ink">
+        <a href="#contact" className="rounded bg-accent px-4 py-2 font-medium text-ink transition-transform hover:-translate-y-0.5">
           hire me
         </a>
       </nav>
