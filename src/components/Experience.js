@@ -16,6 +16,7 @@ export default function Experience() {
               ) : (
                 <span className="font-display text-2xl font-medium">{e.company}</span>
               )}
+              {e.role && <span className="text-sm text-fg/80">{e.role}</span>}
               {e.period && <span className="font-mono text-[13px] text-dim">{e.period}</span>}
             </div>
             <p className="leading-relaxed text-muted md:col-span-2">{e.description}</p>
