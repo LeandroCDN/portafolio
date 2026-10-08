@@ -19,7 +19,7 @@ export const profile = {
 // Static stats. The BirdGames volume is read on-chain (src/lib/volume.js).
 export const stats = [
   { value: "5+", label: "years writing Solidity (since 2021)" },
-  { value: null, label: "products shipped to mainnet" }, // TODO
+  { value: "100k+", label: "BirdGames users" },
 ];
 
 export const projects = [
@@ -40,8 +40,8 @@ export const projects = [
     live: true,
     tags: ["World Chain", "iGaming"],
     description:
-      "A suite of on-chain casino games — Crash, Flip, RPS, Wheel, King, The Box. Wrote and audited every contract and led delivery end to end.",
-    role: "Lead · Contracts · Audit",
+      "Co-founded. On-chain casino games on World Chain's mini app store — Crash, Flip, RPS, Wheel, King, The Box. 100k+ users. Wrote and audited every contract and led delivery end to end.",
+    role: "Co-Founder · CTO · Lead Dev",
     showVolume: true,
     explorer: "https://worldscan.org/address/",
     contracts: [
@@ -93,14 +93,40 @@ export const projects = [
 
 export const experience = [
   {
-    company: "Independent",
+    company: "BirdGames",
+    role: "Co-Founder, CTO & Lead Developer",
     url: null,
-    period: null, // TODO: "2022 — now"
+    period: "2025 — now",
     description:
-      "Freelance smart contract development and private audits for lending, gambling, NFT and token projects. Lately also LLM agents and automation for businesses: WhatsApp sales agents, payment-receipt verification, ops automation.",
+      "Co-founded a blockchain gaming startup and ran all of tech. Shipped 4 games on World Chain's mini app store, frontend and contracts. 100k+ users and 2M+ in on-chain volume.",
+  },
+  {
+    company: "BloodLoop",
+    role: "Full Stack Engineer (Web3) · Blockchain Consultant & Solidity Dev",
+    url: null,
+    period: "2024 — 2025 · Italy, remote",
+    description:
+      "Designed the game's on-chain systems: NFTs, in-game skins, shop, auction house and a refinement system (Solidity, Hardhat, Scaffold-ETH, IPFS). Then built the Web3 marketplace front end — login, inventory, wallet and contract integration with Next.js, Tailwind, Thirdweb and ethers.js.",
+  },
+  {
+    company: "CodeHawks (Cyfrin)",
+    role: "Security Researcher",
+    url: "https://profiles.cyfrin.io/u/leanlabiano",
+    period: "2024",
+    description:
+      "First public audit competition: One World Project. Finished Top 5 among participating auditors.",
+  },
+  {
+    company: "Nightz",
+    role: "CTO",
+    url: "https://nightz.co/",
+    period: "2023 — 2024",
+    description:
+      "Built the team, led web development and wrote the contracts. Launched the product and migrated it across networks to the main chain.",
   },
   {
     company: "Comadran Studios",
+    role: "Smart Contract Developer & Auditor",
     url: null,
     period: null, // TODO
     description:
@@ -108,6 +134,7 @@ export const experience = [
   },
   {
     company: "Aurinext",
+    role: "Solidity Developer",
     url: "https://aurinext.com/",
     period: null, // TODO
     description:
@@ -117,7 +144,7 @@ export const experience = [
 
 export const stack = [
   { group: "contracts", items: ["Solidity", "Foundry", "Hardhat", "Uniswap v4", "Auditing"] },
-  { group: "apps & infra", items: ["TypeScript", "Node", "ethers.js", "Next.js"] },
+  { group: "apps & infra", items: ["TypeScript", "Node", "Next.js", "ethers.js", "Thirdweb", "IPFS"] },
   { group: "agents", items: ["LLM agents", "WhatsApp automation", "Trading bots"] },
   { group: "chains", items: ["World Chain", "Base", "Robinhood Chain", "BNB Chain"] },
 ];
