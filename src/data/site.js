@@ -135,6 +135,7 @@ export const experience = [
 ];
 
 export const stack = [
+  { group: "ecosystems", items: ["EVM", "Solana"] },
   { group: "contracts", items: ["Solidity", "Foundry", "Hardhat", "Uniswap v4", "Auditing"] },
   { group: "apps & infra", items: ["TypeScript", "Node", "Next.js", "ethers.js", "Thirdweb", "IPFS"] },
   { group: "agents", items: ["LLM agents", "WhatsApp automation", "Trading bots"] },
