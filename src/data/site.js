@@ -27,10 +27,10 @@ export const projects = [
     name: "wildcardgames.app",
     url: "https://wildcardgames.app",
     featured: true,
-    live: true,
+    badge: "CURRENT",
     tags: ["Base", "Robinhood Chain"],
     description:
-      "A fully on-chain gambling platform. Every bet, outcome and payout settles in contracts — no off-chain house.",
+      "What I'm building now. A fully on-chain gambling platform: every bet, outcome and payout settles in contracts — no off-chain house.",
     role: "Founder · Smart contracts · Infra",
   },
   {
@@ -40,7 +40,7 @@ export const projects = [
     live: true,
     tags: ["World Chain", "iGaming"],
     description:
-      "Co-founded. On-chain casino games on World Chain's mini app store — Crash, Flip, RPS, Wheel, King, The Box. 100k+ users. Wrote and audited every contract and led delivery end to end.",
+      "Co-founded and ran tech. On-chain casino games on World Chain's mini app store — Crash, Flip, RPS, Wheel, King, The Box. 100k+ users. Wrote and audited every contract and led delivery end to end.",
     role: "Co-Founder · CTO · Lead Dev",
     showVolume: true,
     explorer: "https://worldscan.org/address/",
@@ -58,37 +58,29 @@ export const projects = [
       { name: "Race", address: "0xF0B791DcA67a0bCeFc9AE3F1DE30225A0c808c74" },
       { name: "Meme Race", address: "0xaAC1FE8B6391E74f0DEd8336aD27DB903375C4FE" },
     ],
-  },
-  {
-    name: "Liquidity rewards bot",
-    url: null,
-    tags: ["Polymarket", "Bot"],
+  },  {
+    name: "BloodLoop",
+    url: null, // TODO
+    tags: ["Web3 game", "NFTs", "Marketplace"],
     description:
-      "Automated market-making for Polymarket liquidity rewards, with a share and liquidity estimator.",
-    role: "Builder · Trading infra",
-  },
-  {
-    name: "RushPoppy",
-    url: null, // TODO
-    tags: ["AI agents", "Hackathon"],
-    description: "Collaborative-agent project built for the Flower Labs hackathon at Stanford.",
-    role: "Builder · Pitch",
-  },
-  {
-    name: "WhatTheHook",
-    url: null, // TODO
-    tags: ["Uniswap v4", "DeFi"],
-    description: "Research and development on Uniswap v4 hooks.",
-    role: "R&D · Solidity",
+      "Biggest team I've worked in. Designed the game's on-chain economy — NFTs, skins, shop, auction house, refinement — then built the marketplace front end.",
+    role: "Blockchain consultant · Full-stack Web3",
   },
   {
     name: "Nightz",
     url: "https://nightz.co/",
-    tags: ["2023 – 2024", "NFT memberships"],
+    tags: ["RWA", "NFT memberships", "2023 – 2024"],
     description:
-      "NFT memberships where each token is a night's stay. Built the team, the contracts and the multi-chain migration.",
+      "Real-world asset memberships: each NFT is a night's stay in partner properties. Built the team, the contracts and the multi-chain migration.",
     role: "CTO · Smart contracts",
   },
+];
+
+// Smaller list under the main projects.
+export const sideProjects = [
+  { name: "Polymarket liquidity bot", description: "Market-making bot for Polymarket liquidity rewards, with a share and liquidity estimator.", url: null },
+  { name: "WhatTheHook", description: "R&D on Uniswap v4 hooks.", url: null },
+  { name: "RushPoppy", description: "Collaborative-agent project for the Flower Labs hackathon at Stanford.", url: null },
 ];
 
 export const experience = [

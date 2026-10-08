@@ -1,5 +1,5 @@
 import { ArrowUpRight } from 'lucide-react'
-import { projects } from '@/data/site'
+import { projects, sideProjects } from '@/data/site'
 import ContractList from './ContractList'
 import { CountUp, Reveal } from './motion'
 
@@ -20,6 +20,7 @@ function Card({ p, volume }) {
             LIVE
           </span>
         )}
+        {p.badge && <span className="rounded-sm border border-accent px-2 py-1 text-accent">{p.badge}</span>}
         {p.tags.map((t) => (
           <span key={t} className="rounded-sm border border-edge px-2 py-1 text-muted">
             {t}
@@ -77,6 +78,28 @@ export default function Work({ volume }) {
           </Reveal>
         ))}
       </div>
+
+      {sideProjects?.length > 0 && (
+        <Reveal className="mt-6 flex flex-col gap-4">
+          <h3 className="font-mono text-sm text-dim">{'// also built'}</h3>
+          <ul className="border-t border-line">
+            {sideProjects.map((sp) => (
+              <li key={sp.name} className="flex flex-col gap-1 border-b border-line py-4 sm:flex-row sm:items-baseline sm:gap-6">
+                <span className="shrink-0 font-display text-lg font-medium sm:w-64">
+                  {sp.url ? (
+                    <a href={sp.url} target="_blank" rel="noopener noreferrer" className="hover:text-accent">
+                      {sp.name} ↗
+                    </a>
+                  ) : (
+                    sp.name
+                  )}
+                </span>
+                <span className="text-sm leading-relaxed text-muted">{sp.description}</span>
+              </li>
+            ))}
+          </ul>
+        </Reveal>
+      )}
     </section>
   )
 }
