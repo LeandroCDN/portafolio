@@ -18,7 +18,7 @@ export const profile = {
 
 // Static stats. The BirdGames volume is read on-chain (src/lib/volume.js).
 export const stats = [
-  { value: null, label: "years writing Solidity" }, // TODO: e.g. "4+"
+  { value: "5+", label: "years writing Solidity (since 2021)" },
   { value: null, label: "products shipped to mainnet" }, // TODO
 ];
 
@@ -43,6 +43,21 @@ export const projects = [
       "A suite of on-chain casino games — Crash, Flip, RPS, Wheel, King, The Box. Wrote and audited every contract and led delivery end to end.",
     role: "Lead · Contracts · Audit",
     showVolume: true,
+    explorer: "https://worldscan.org/address/",
+    contracts: [
+      { name: "Treasury", address: "0x0d11962468Ccc3d1A38a7179c978F0A34971Dc41" },
+      { name: "GameRouter", address: "0x105c6e0778f9ca58496F5c94D369f1771776bEBa" },
+      { name: "Wheel", address: "0x3cF7342bf3Ba9b813Afe899852Ab7302D3277F30" },
+      { name: "Crash v3", address: "0xF5e968d554471816d50b593BD5fa7C6ddC4DEB58" },
+      { name: "Crash v2", address: "0xD50CeCCe52a04Ef5259C89020dD4AEa23143e1Fa" },
+      { name: "Crash v1", address: "0x36291184a593fe7E0A6af87e126A511E4a1fc284" },
+      { name: "Flip", address: "0x6A84107E72d20E310598f5346abF7e92280CF672" },
+      { name: "Rock Paper Scissors", address: "0x8d4A879ee2c368222F2ED20C2178cC73dA69B762" },
+      { name: "King", address: "0x9841CdC07C3566367741E3a0c3A8FE9F36519dEe" },
+      { name: "The Box", address: "0xE37d5D5777dAB5B8aA9a47f55672c3728e0f05eB" },
+      { name: "Race", address: "0xF0B791DcA67a0bCeFc9AE3F1DE30225A0c808c74" },
+      { name: "Meme Race", address: "0xaAC1FE8B6391E74f0DEd8336aD27DB903375C4FE" },
+    ],
   },
   {
     name: "Liquidity rewards bot",

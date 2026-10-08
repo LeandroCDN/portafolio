@@ -16,6 +16,12 @@ module.exports = {
         dim: '#8E8D84',
         accent: '#C8F560',
       },
+      keyframes: {
+        marquee: { from: { transform: 'translateX(0)' }, to: { transform: 'translateX(-50%)' } },
+      },
+      animation: {
+        marquee: 'marquee 40s linear infinite',
+      },
       fontFamily: {
         display: ['var(--font-display)', 'sans-serif'],
         sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],

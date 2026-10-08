@@ -1,4 +1,5 @@
 import { profile } from '@/data/site'
+import { Reveal } from './motion'
 
 export default function Contact() {
   const links = [
@@ -10,9 +11,9 @@ export default function Contact() {
 
   return (
     <>
-      <section id="contact" className="flex flex-col gap-7 border-t border-line py-24">
+      <section id="contact" className="flex scroll-mt-20 flex-col gap-7 border-t border-line py-20">
         <span className="font-mono text-sm text-accent">{'// contact'}</span>
-        <h2 className="max-w-4xl font-display text-4xl font-bold leading-none tracking-tight sm:text-6xl lg:text-[80px]">
+        <h2 className="max-w-3xl [text-wrap:balance] font-display text-4xl font-bold leading-[1.02] tracking-tight sm:text-5xl lg:text-6xl">
           Need contracts shipped or audited? Let&apos;s talk.
         </h2>
         <div className="flex flex-wrap gap-3">
