@@ -8,7 +8,7 @@ export const profile = {
   headline: "I build systems that run on-chain — and the agents that run them.",
   intro:
     "Smart contract developer and auditor. I ship fully on-chain games, DeFi tooling, trading bots and LLM agents — from contract to production.",
-  email: null, // TODO: "you@domain.com"
+  email: "leandrodenos@gmail.com",
   cv: "/files/LEANDRO-LABIANO.pdf",
   github: "https://github.com/LeandroCDN",
   x: "https://x.com/leanlabiano",
