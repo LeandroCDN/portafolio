@@ -26,7 +26,7 @@ export const stats = [
 export const experiments = [
   {
     name: "notHumans",
-    url: null, // TODO: "https://nothumans.ai" once the domain is bought
+    url: "https://not-humans-beta.vercel.app/", // TODO: swap for the final domain
     status: "BETA",
     tags: ["AI agents", "WhatsApp", "LLMs"],
     description:
@@ -74,7 +74,7 @@ export const projects = [
     ],
   },  {
     name: "BloodLoop",
-    url: null, // TODO
+    url: "https://bloodloop.com/home",
     tags: ["Web3 game", "NFTs", "Marketplace"],
     description:
       "Biggest team I've worked in. Designed the game's on-chain economy — NFTs, skins, shop, auction house, refinement — then built the marketplace front end.",
@@ -92,16 +92,16 @@ export const projects = [
 
 // Smaller list under the main projects.
 export const sideProjects = [
+  { name: "RushPoppy", description: "Collaborative-agent project for the Flower Labs hackathon at Stanford — Tech Week SF 2026.", url: null },
   { name: "Polymarket liquidity bot", description: "Market-making bot for Polymarket liquidity rewards, with a share and liquidity estimator.", url: null },
   { name: "WhatTheHook", description: "R&D on Uniswap v4 hooks.", url: null },
-  { name: "RushPoppy", description: "Collaborative-agent project for the Flower Labs hackathon at Stanford.", url: null },
 ];
 
 export const experience = [
   {
     company: "notHumans",
     role: "Founder & Developer",
-    url: null, // TODO: domain
+    url: "https://not-humans-beta.vercel.app/",
     period: "2026 — now",
     description:
       "Building an AI persona platform that turns WhatsApp chat exports (text and voice notes) into personas that answer a business's customers on WhatsApp. Next.js, TypeScript, Supabase, DeepSeek and Groq Whisper; versioned personas, per-plan usage metering and an inbox where the owner approves drafts or takes over.",
@@ -117,7 +117,7 @@ export const experience = [
   {
     company: "BloodLoop",
     role: "Full Stack Engineer (Web3) · Blockchain Consultant & Solidity Dev",
-    url: null,
+    url: "https://bloodloop.com/home",
     period: "2024 — 2025 · Italy, remote",
     description:
       "Designed the game's on-chain systems: NFTs, in-game skins, shop, auction house and a refinement system (Solidity, Hardhat, Scaffold-ETH, IPFS). Then built the Web3 marketplace front end — login, inventory, wallet and contract integration with Next.js, Tailwind, Thirdweb and ethers.js.",

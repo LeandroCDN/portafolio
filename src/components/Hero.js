@@ -14,7 +14,7 @@ export default function Hero({ volume }) {
   ]
 
   return (
-    <section id="top" className="relative isolate pb-16 pt-16 md:pb-20 md:pt-24">
+    <section id="top" className="relative isolate pb-12 pt-10 md:pb-20 md:pt-24">
       {/* dotted grid, faded toward the edges */}
       <div
         aria-hidden="true"
@@ -62,7 +62,7 @@ export default function Hero({ volume }) {
 
       {items.length > 0 && (
         <Reveal delay={0.2}>
-          <dl className={`mt-14 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line ${lgCols[Math.min(items.length, 4)]}`}>
+          <dl className={`mt-10 md:mt-14 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line ${lgCols[Math.min(items.length, 4)]}`}>
             {items.map((s, i) => (
               <div key={s.label} className={`flex flex-col-reverse gap-1.5 bg-ink px-5 py-5 ${items.length % 2 && i === items.length - 1 ? 'col-span-2 lg:col-span-1' : ''}`}>
                 <dt className="font-mono text-xs text-dim">{s.label}</dt>

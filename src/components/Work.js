@@ -4,7 +4,7 @@ import { Reveal } from './motion'
 
 export default function Work({ volume }) {
   return (
-    <section id="work" className="flex scroll-mt-20 flex-col gap-10 py-20">
+    <section id="work" className="flex scroll-mt-20 flex-col gap-8 py-14 md:gap-10 md:py-20">
       <Reveal className="flex flex-wrap items-baseline justify-between gap-3">
         <h2 className="font-display text-4xl font-medium tracking-tight md:text-5xl">Selected work</h2>
         <span className="font-mono text-sm text-dim">01 — {String(projects.length).padStart(2, '0')}</span>
