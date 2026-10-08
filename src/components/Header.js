@@ -1,26 +1,28 @@
-import './Header.css';
-import Image from 'next/image'
+import { profile } from '@/data/site'
 
-const Header = () => {
-  
+const links = [
+  { href: '#work', label: 'work' },
+  { href: '#experience', label: 'experience' },
+  { href: '#stack', label: 'stack' },
+]
+
+export default function Header() {
   return (
-      <header className="header-style flex justify-between items-center rounded-xl mx-3 my-2 sticky top-2 xl:top-2 z-50 bg-white bg-opacity-20" >
-        <h2 className=" font-semibold ml-4 text-2xl">Lean Labiano</h2>
-        
-        <div className=" flex justify-end  mr-4 space-x-4 xl:flex-row ">
-            
-            <a href="/files/LEANDRO-LABIANO.pdf" target="_blank" className="flex items-center rounded-lg bg-blue-500 text-white px-4 py-2">
-             View CV
-            </a>
-            <a href="https://x.com/leanlabiano" target="_blank" class="flex items-center rounded-lg bg-white bg-opacity-5">
-              <Image  src="/TwitterX.svg" alt="me" width="48" height="48" />
-            </a>
-            <a href="https://www.linkedin.com/in/leanlabiano/" target="_blank"  class="flex items-center rounded-lg bg-white bg-opacity-5">
-              <Image  src="/Linkedin.svg" alt="me" width="48" height="48" />
-            </a>
-        </div>
-      </header>
-  );
-};
-export default Header;
-//top-[100svh]
+    <header className="flex flex-wrap items-center justify-between gap-4 border-b border-line py-7">
+      <a href="#top" className="font-mono text-[15px]">
+        {profile.handle}
+        <span className="text-accent">_</span>
+      </a>
+      <nav aria-label="Main" className="flex flex-wrap items-center gap-6 font-mono text-sm">
+        {links.map((l) => (
+          <a key={l.href} href={l.href} className="text-muted transition-colors hover:text-accent">
+            {l.label}
+          </a>
+        ))}
+        <a href="#contact" className="rounded bg-accent px-4 py-2.5 font-medium text-ink">
+          hire me
+        </a>
+      </nav>
+    </header>
+  )
+}

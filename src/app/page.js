@@ -1,15 +1,27 @@
-import About from "../components/sections/About"
-import Experience from "../components/sections/Experience"
-import Stack from "../components/sections/Stack"
-import SideProjects from "../components/sections/SideProjects"
+import Header from '@/components/Header'
+import Hero from '@/components/Hero'
+import Work from '@/components/Work'
+import Experience from '@/components/Experience'
+import Stack from '@/components/Stack'
+import Contact from '@/components/Contact'
+import { getBirdGamesVolume } from '@/lib/volume'
 
-export default function Home() {
+// Re-read the on-chain volume at most once per hour.
+export const revalidate = 3600
+
+export default async function Home() {
+  const volume = await getBirdGamesVolume()
+
   return (
-    <main className="md:px-20 xl:px-20 px-4">
-      <About className=""/>
-      <Experience/>
-      <Stack/>
-      <SideProjects/>
-    </main>
+    <div className="mx-auto max-w-6xl px-4 sm:px-6">
+      <Header />
+      <main>
+        <Hero volume={volume} />
+        <Work volume={volume} />
+        <Experience />
+        <Stack />
+        <Contact />
+      </main>
+    </div>
   )
 }
