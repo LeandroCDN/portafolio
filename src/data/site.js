@@ -22,17 +22,31 @@ export const stats = [
   { value: "100k+", label: "BirdGames users" },
 ];
 
-export const projects = [
+// What I'm building now. Shown above "Selected work"; hidden if empty.
+export const experiments = [
+  {
+    name: "notHumans",
+    url: null, // TODO: "https://nothumans.ai" once the domain is bought
+    status: "BETA",
+    tags: ["AI agents", "WhatsApp", "LLMs"],
+    description:
+      "AI personas that write like a real person. Feed it WhatsApp chats and it learns how someone talks — then answers a business's customers on WhatsApp with that voice, the business's rules and its hours. Built solo, from chat parser to WhatsApp Cloud API.",
+    role: "Founder · Full-stack · AI",
+    caseStudy: null, // later: "nothumans"
+  },
   {
     name: "wildcardgames.app",
     url: "https://wildcardgames.app",
-    featured: true,
-    badge: "CURRENT",
+    status: "BUILDING",
     tags: ["Base", "Robinhood Chain"],
     description:
-      "What I'm building now. A fully on-chain gambling platform: every bet, outcome and payout settles in contracts — no off-chain house.",
+      "A fully on-chain gambling platform: every bet, outcome and payout settles in contracts — no off-chain house.",
     role: "Founder · Smart contracts · Infra",
+    caseStudy: null,
   },
+];
+
+export const projects = [
   {
     name: "BirdGames",
     url: null, // TODO
@@ -85,6 +99,14 @@ export const sideProjects = [
 
 export const experience = [
   {
+    company: "notHumans",
+    role: "Founder & Developer",
+    url: null, // TODO: domain
+    period: "2026 — now",
+    description:
+      "Building an AI persona platform that turns WhatsApp chat exports (text and voice notes) into personas that answer a business's customers on WhatsApp. Next.js, TypeScript, Supabase, DeepSeek and Groq Whisper; versioned personas, per-plan usage metering and an inbox where the owner approves drafts or takes over.",
+  },
+  {
     company: "BirdGames",
     role: "Co-Founder, CTO & Lead Developer",
     url: null,
@@ -120,7 +142,7 @@ export const experience = [
     company: "Comadran Studios",
     role: "Smart Contract Developer & Auditor",
     url: null,
-    period: null, // TODO
+    period: "2022",
     description:
       "Hired to audit; found and fixed critical vulnerabilities in production. Then built every contract for their NFT game: marketplace, token, staking and locking.",
   },
@@ -128,7 +150,7 @@ export const experience = [
     company: "Aurinext",
     role: "Solidity Developer",
     url: "https://aurinext.com/",
-    period: null, // TODO
+    period: "2022",
     description:
       "Built Educaverse's custom token and pre-sale contract, plus the pre-sale front end in JavaScript and Web3.js.",
   },
@@ -137,7 +159,7 @@ export const experience = [
 export const stack = [
   { group: "ecosystems", items: ["EVM", "Solana"] },
   { group: "contracts", items: ["Solidity", "Foundry", "Hardhat", "Uniswap v4", "Auditing"] },
-  { group: "apps & infra", items: ["TypeScript", "Node", "Next.js", "ethers.js", "Thirdweb", "IPFS"] },
-  { group: "agents", items: ["LLM agents", "WhatsApp automation", "Trading bots"] },
+  { group: "apps & infra", items: ["TypeScript", "Node", "Next.js", "Supabase", "ethers.js", "Thirdweb", "IPFS"] },
+  { group: "agents", items: ["LLM agents", "WhatsApp Cloud API", "DeepSeek", "Speech-to-text", "Trading bots"] },
   { group: "chains", items: ["World Chain", "Base", "Robinhood Chain", "BNB Chain"] },
 ];
